@@ -9,6 +9,7 @@ on:
       - '**.md'
       - '.github/**'
       - '!.github/workflows/debug.yml'
+  workflow_dispatch: # 手动触发
   pull_request:
     branches:
       - main-next
