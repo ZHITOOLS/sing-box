@@ -23,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0name: Debug build
+          fetch-depth: name: Debug build
 
 on:
   push:
