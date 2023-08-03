@@ -91,7 +91,7 @@ jobs:
           # android
           - name: android-armv7a
             goos: android
-            goarch: arm
+            goarch: armv7
 
           - name: android-arm64
             goos: android
