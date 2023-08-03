@@ -1,4 +1,3 @@
-【github_action_go编译示例】
 name: Debug build
 
 on:
