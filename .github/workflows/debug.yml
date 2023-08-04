@@ -92,6 +92,7 @@ jobs:
           - name: android-armv7a
             goos: android
             goarch: arm
+            goarm: 7
             env:
              - CC=armv7a-linux-androideabi19-clang
              - CXX=armv7a-linux-androideabi19-clang++
